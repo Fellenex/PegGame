@@ -1,7 +1,8 @@
 # Peg Game
 
 This is a cute little game one can play with golf tees and a block of wood with a triangular grid of holes.
-There will have to be a triangular number of holes (1, 3, 6, 10, 15, 21, ...) for the holes to line up as a triangle. See https://oeis.org/A000217 for details
+There will have to be a triangular number of holes (1, 3, 6, 10, 15, 21, ...) for the holes to line up as a triangle. See https://oeis.org/A000217 for more details.
+
 This implementation creates a plan to win the peg game when there are 15 holes.
 
 ## Rules of the Game
@@ -18,8 +19,9 @@ The state atoms are internally organized in the following way:
   state([[A],[B,C],[D,E,F],[G,H,I,J],[K,L,M,N,O]])
 ```
 which looks like
+
 ![Internal/External PegGame Mapping](/graph.png?raw=true)
 
 ## Acknowledgments
 
-* Thanks to Cracker Barrel for making me feel like this was actually a simple problem.
+* Thanks to Cracker Barrel for making me feel like this was a simple problem. It is!
